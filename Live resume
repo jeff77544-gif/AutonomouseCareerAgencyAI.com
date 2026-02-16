@@ -1,0 +1,33 @@
+const RevenueModelCard = () => {
+  return (
+    <div className="bg-gradient-to-b from-[#1a1a1a] to-black border border-gray-800 p-8 rounded-2xl shadow-xl max-w-sm text-center">
+      <h3 className="text-blue-500 font-bold uppercase tracking-widest text-sm mb-4">Platinum Tier</h3>
+      <div className="flex justify-center items-baseline mb-6">
+        <span className="text-5xl font-extrabold text-white">$30</span>
+        <span className="text-gray-500 ml-2">/month</span>
+      </div>
+      
+      <div className="space-y-4 mb-8 text-left">
+        <div className="flex items-center gap-3">
+          <div className="h-2 w-2 bg-blue-500 rounded-full"></div>
+          <p className="text-gray-300">Autonomous Monitoring & Sync</p>
+        </div>
+        <div className="flex items-center gap-3 bg-blue-500/10 p-3 rounded-lg border border-blue-500/20">
+          <div className="h-2 w-2 bg-blue-400 rounded-full"></div>
+          <p className="text-white font-semibold italic">5% Success Fee on 1st Year Salary</p>
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="h-2 w-2 bg-blue-500 rounded-full"></div>
+          <p className="text-gray-300">AES-256 Zero-Trust Vault</p>
+        </div>
+      </div>
+
+      <button className="w-full py-4 bg-white text-black font-black uppercase rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300">
+        Activate Hunter Mode
+      </button>
+      <p className="mt-4 text-[10px] text-gray-600 uppercase tracking-tighter">
+        Linked to Mercury & Stripe. Zero-Trust Security Guaranteed.
+      </p>
+    </div>
+  );
+};
